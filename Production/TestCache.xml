@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestClassesCache>
+    <TestClasses>
+        <TestClass>
+            <Id>01p58000001Ri2gAAC</Id>
+            <Name>ProductionQuantityCalculationTest</Name>
+            <TestMethods>
+                <TestMethod>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+    </TestClasses>
+    <CacheDate>2016-01-29T21:24:17.7389459Z</CacheDate>
+    <IsLocal>true</IsLocal>
+</TestClassesCache>
