@@ -17,13 +17,12 @@ private class ProductionQuantityCalculationTest {
         Product2 product=[SELECT Production_Quantity__c FROM Product2 LIMIT 1];
         
         List<Production__c> productions=[SELECT Name, Quantity__c,Product__c, Status__c FROM Production__c WHERE Name='456'];
-        
-        Test.startTest();
+       
         ProductionQuantityCalculation.Recalculate(productions);
         
          Product2 result=[SELECT Production_Quantity__c FROM Product2 LIMIT 1];
         System.assertEquals(12, result.Production_Quantity__c);
-        Test.stopTest();
+        
 
       
     }

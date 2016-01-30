@@ -45,22 +45,29 @@
       <PhysicalRelativePath>Classes\ProductionQuantityCalculationTest.cls</PhysicalRelativePath>
       <SubType>Class</SubType>
       <Id>01p58000001Ri2gAAC</Id>
-      <LastModifiedDateUtcTicks>130985569550000000</LastModifiedDateUtcTicks>
-      <Hash>+SlygXA8xu56ZUUhYdSZJA==</Hash>
+      <LastModifiedDateUtcTicks>130986528600000000</LastModifiedDateUtcTicks>
+      <Hash>FZt8uj+41+A+WK/eSCffnA==</Hash>
     </Compile>
     <Compile Include="Classes\ProductionTriggerTest.cls">
       <PhysicalRelativePath>Classes\ProductionTriggerTest.cls</PhysicalRelativePath>
       <SubType>Class</SubType>
       <Id>01p58000001RfmXAAS</Id>
-      <LastModifiedDateUtcTicks>130983275090000000</LastModifiedDateUtcTicks>
-      <Hash>RBvmszJV/c6mkoMdvbzGrQ==</Hash>
+      <LastModifiedDateUtcTicks>130986536350000000</LastModifiedDateUtcTicks>
+      <Hash>lAnwNA/siRwxtwik2g+2yw==</Hash>
+    </Compile>
+    <Compile Include="Classes\TestDataFactory.cls">
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>Classes\TestDataFactory.cls</PhysicalRelativePath>
+      <Id>01p58000001gwOUAAY</Id>
+      <LastModifiedDateUtcTicks>130986535640000000</LastModifiedDateUtcTicks>
+      <Hash>pKsIeFnZH30Q2y08E58yGQ==</Hash>
     </Compile>
     <Compile Include="Triggers\ProductionTrigger.trigger">
       <PhysicalRelativePath>Triggers\ProductionTrigger.trigger</PhysicalRelativePath>
       <SubType>Trigger</SubType>
       <Id>01q580000008zAlAAI</Id>
-      <LastModifiedDateUtcTicks>130983274120000000</LastModifiedDateUtcTicks>
-      <Hash>/WCPXeHWPA1+JgaEtIvvfA==</Hash>
+      <LastModifiedDateUtcTicks>130986531820000000</LastModifiedDateUtcTicks>
+      <Hash>3sXMD2Lxa7Pyj9+LHkYeOg==</Hash>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -75,21 +82,28 @@
       <PhysicalRelativePath>Classes\ProductionQuantityCalculationTest.cls-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
       <DependentUpon>Classes\ProductionQuantityCalculationTest.cls</DependentUpon>
-      <LastModifiedDateUtcTicks>130985569550000000</LastModifiedDateUtcTicks>
+      <LastModifiedDateUtcTicks>130986528600000000</LastModifiedDateUtcTicks>
       <Hash>uwZXo0MLIqlu2+U6OesXVA==</Hash>
     </None>
     <None Include="Classes\ProductionTriggerTest.cls-meta.xml">
       <PhysicalRelativePath>Classes\ProductionTriggerTest.cls-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
       <DependentUpon>Classes\ProductionTriggerTest.cls</DependentUpon>
-      <LastModifiedDateUtcTicks>130983275090000000</LastModifiedDateUtcTicks>
+      <LastModifiedDateUtcTicks>130986536350000000</LastModifiedDateUtcTicks>
       <Hash>uwZXo0MLIqlu2+U6OesXVA==</Hash>
+    </None>
+    <None Include="Classes\TestDataFactory.cls-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Classes\TestDataFactory.cls-meta.xml</PhysicalRelativePath>
+      <LastModifiedDateUtcTicks>130986535640000000</LastModifiedDateUtcTicks>
+      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
+      <DependentUpon>Classes\TestDataFactory.cls</DependentUpon>
     </None>
     <None Include="Triggers\ProductionTrigger.trigger-meta.xml">
       <PhysicalRelativePath>Triggers\ProductionTrigger.trigger-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
       <DependentUpon>Triggers\ProductionTrigger.trigger</DependentUpon>
-      <LastModifiedDateUtcTicks>130983274120000000</LastModifiedDateUtcTicks>
+      <LastModifiedDateUtcTicks>130986531820000000</LastModifiedDateUtcTicks>
       <Hash>03H3jwCKMJI2OlSRx8x+lw==</Hash>
     </None>
   </ItemGroup>

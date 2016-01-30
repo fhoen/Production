@@ -2,6 +2,84 @@
 <TestsResultsCache>
     <TestClasses>
         <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN1eAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN1ZAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <Message>System.AssertException: Assertion Failed: Same value: 3</Message>
+                    <StackTrace>Class.ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenUpdatingProductions: line 36, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN1UAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <Message>System.DmlException: Update failed. First exception on row 0; first error: MISSING_ARGUMENT, Id not specified in an update call: []</Message>
+                    <StackTrace>Class.ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenUpdatingProductions: line 30, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN1PAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN1KAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
+                    <StackTrace>Class.ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions: line 20, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TN1FAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
             <TestClassId>01p58000001Ri2gAAC</TestClassId>
             <TestQueueId>70958000000PFy1AAG</TestQueueId>
             <TestMethods>

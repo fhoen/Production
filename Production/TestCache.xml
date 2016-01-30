@@ -10,7 +10,16 @@
                 </TestMethod>
             </TestMethods>
         </TestClass>
+        <TestClass>
+            <Id>01p58000001RfmXAAS</Id>
+            <Name>ProductionTriggerTest</Name>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
     </TestClasses>
-    <CacheDate>2016-01-29T21:24:17.7389459Z</CacheDate>
-    <IsLocal>true</IsLocal>
+    <CacheDate>2016-01-30T18:41:21.9187348Z</CacheDate>
+    <IsLocal>false</IsLocal>
 </TestClassesCache>
