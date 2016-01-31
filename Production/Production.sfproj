@@ -34,6 +34,20 @@
     <Folder Include="Workflows" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CheckSumGenerator.cls">
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>Classes\CheckSumGenerator.cls</PhysicalRelativePath>
+      <Id>01p58000001gwnaAAA</Id>
+      <LastModifiedDateUtcTicks>130987204010000000</LastModifiedDateUtcTicks>
+      <Hash>E+8X5ghVjkqN2xgcQLOa4Q==</Hash>
+    </Compile>
+    <Compile Include="Classes\CheckSumGeneratorTest.cls">
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>Classes\CheckSumGeneratorTest.cls</PhysicalRelativePath>
+      <Id>01p58000001gwnfAAA</Id>
+      <LastModifiedDateUtcTicks>130987199500000000</LastModifiedDateUtcTicks>
+      <Hash>K1emTkBkP4WRm0P816mH3A==</Hash>
+    </Compile>
     <Compile Include="Classes\ProductionQuantityCalculation.cls">
       <PhysicalRelativePath>Classes\ProductionQuantityCalculation.cls</PhysicalRelativePath>
       <SubType>Class</SubType>
@@ -71,6 +85,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Classes\CheckSumGenerator.cls-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Classes\CheckSumGenerator.cls-meta.xml</PhysicalRelativePath>
+      <LastModifiedDateUtcTicks>130987204010000000</LastModifiedDateUtcTicks>
+      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
+      <DependentUpon>Classes\CheckSumGenerator.cls</DependentUpon>
+    </None>
+    <None Include="Classes\CheckSumGeneratorTest.cls-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Classes\CheckSumGeneratorTest.cls-meta.xml</PhysicalRelativePath>
+      <LastModifiedDateUtcTicks>130987199500000000</LastModifiedDateUtcTicks>
+      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
+      <DependentUpon>Classes\CheckSumGeneratorTest.cls</DependentUpon>
+    </None>
     <None Include="Classes\ProductionQuantityCalculation.cls-meta.xml">
       <PhysicalRelativePath>Classes\ProductionQuantityCalculation.cls-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>

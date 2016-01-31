@@ -2,6 +2,462 @@
 <TestsResultsCache>
     <TestClasses>
         <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4xAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XoEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XoEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XoEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XoEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4sAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XjEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XjEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XjEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 5, Actual: 0</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBarcodeIs1111111: line 6, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XjEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 6, Actual: 0</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs6_whenBarcodeIs945671259123: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4nAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XeEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XeEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XeEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 5, Actual: 0</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBarcodeIs1111111: line 6, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002XeEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 6, Actual: 0</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs6_whenBarcodeIs945671259123: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4iAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002X0EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002X0EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002X0EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002X0EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 6, Actual: 8</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs6_whenBarcodeIs945671259123: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4dAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002WqEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002WqEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002WqEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4YAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002W7EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 38, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002W7EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002W7EAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 38, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4TAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002VTEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 36, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002VTEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002VTEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 36, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4OAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002UuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 37, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002UuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002UuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 37, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4JAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002UQEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 37, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002UQEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002UQEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 37, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN4EAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000002QdEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 18, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002QdEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000002QdEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 18, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TN2cAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L58000000010KEAQ</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN2XAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 14, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 14, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN2SAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 14, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.TypeException: Invalid integer:</Message>
+                    <StackTrace>Class.CheckSumGenerator.calculateWithMod10: line 14, column 1
+Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN2NAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIs1234567</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 0, Actual: 5</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIs1234567: line 16, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN2IAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN2JAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN2DAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN28AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBatcodeIsText</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 0, Actual: 5</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs0_whenBatcodeIsText: line 11, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN23AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001gwnfAAA</TestClassId>
+            <TestQueueId>70958000000TN1yAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 5, Actual: 0</Message>
+                    <StackTrace>Class.CheckSumGeneratorTest.calculateWithMod10_resultIs5_whenBatcodeIs1111111: line 6, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TN1kAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000000w8EAA</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L5800000000w8EAA</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TN1lAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L5800000000wDEAQ</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
             <TestClassId>01p58000001RfmXAAS</TestClassId>
             <TestQueueId>70958000000TN1eAAG</TestQueueId>
             <TestMethods>

@@ -17,9 +17,21 @@
                 <TestMethod>
                     <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
                 </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <Id>01p58000001gwnfAAA</Id>
+            <Name>CheckSumGeneratorTest</Name>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                </TestMethod>
             </TestMethods>
         </TestClass>
     </TestClasses>
-    <CacheDate>2016-01-30T18:41:21.9187348Z</CacheDate>
+    <CacheDate>2016-01-30T22:13:30.4672982Z</CacheDate>
     <IsLocal>false</IsLocal>
 </TestClassesCache>

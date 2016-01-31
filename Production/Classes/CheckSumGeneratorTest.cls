@@ -1,0 +1,23 @@
+@isTest
+private class CheckSumGeneratorTest { 
+
+		private static testMethod void calculateWithMod10_resultIs5_whenBarcodeIs1111111(){
+			Integer result=CheckSumGenerator.calculateWithMod10('1111111');
+			System.assertEquals(5,result);
+		}
+
+		private static testMethod void calculateWithMod10_resultIs0_whenBarcodeIsText(){
+			Integer result=CheckSumGenerator.calculateWithMod10('abc');
+			System.assertEquals(0,result);
+		}
+
+		private static testMethod void calculateWithMod10_resultIs0_whenBarcodeIs1234567(){
+			Integer result=CheckSumGenerator.calculateWithMod10('1234567');
+			System.assertEquals(0,result);
+		}
+
+		private static testMethod void calculateWithMod10_resultIs6_whenBarcodeIs945671259123(){
+			Integer result=CheckSumGenerator.calculateWithMod10('945671259123');
+			System.assertEquals(6,result);
+		}
+}
