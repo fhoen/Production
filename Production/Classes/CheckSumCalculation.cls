@@ -1,4 +1,4 @@
-public  with sharing class CheckSumGenerator {
+public  with sharing class CheckSumCalculation  {
 
 	public static Integer calculateWithMod10(String barcode){
 

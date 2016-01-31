@@ -23,15 +23,24 @@
             </TestMethods>
         </TestClass>
         <TestClass>
-            <Id>01p58000001gwnfAAA</Id>
-            <Name>CheckSumGeneratorTest</Name>
+            <Id>01p58000001h0wNAAQ</Id>
+            <Name>CheckSumCalculationTest</Name>
             <TestMethods>
                 <TestMethod>
-                    <Name>calculateWithMod10_resultIs5_whenBatcodeIs1111111</Name>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
                 </TestMethod>
             </TestMethods>
         </TestClass>
     </TestClasses>
-    <CacheDate>2016-01-30T22:13:30.4672982Z</CacheDate>
+    <CacheDate>2016-01-31T20:29:52.2871493Z</CacheDate>
     <IsLocal>false</IsLocal>
 </TestClassesCache>
