@@ -1,0 +1,7 @@
+public  with sharing class ProductionTriggerHandler {
+	
+	public static List<Production__c> productions generateBarcode(List<Production__c> productions){
+		
+		return productions;
+	}
+ }

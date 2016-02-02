@@ -1,0 +1,283 @@
+35.0 APEX_CODE,DEBUG;APEX_PROFILING,DEBUG;CALLOUT,DEBUG;DB,DEBUG;SYSTEM,DEBUG;VALIDATION,DEBUG;VISUALFORCE,DEBUG;WORKFLOW,DEBUG
+06:58:06.114 (114217828)|EXECUTION_STARTED
+06:58:06.114 (114497312)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000001RfmX|ProductionTriggerTest.setup
+06:58:06.117 (117602393)|DML_BEGIN|[32]|Op:Insert|Type:Product2|Rows:1
+06:58:06.159 (159787257)|DML_END|[32]
+06:58:06.160 (160198475)|CUMULATIVE_LIMIT_USAGE
+06:58:06.160 (160198475)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.160 (160198475)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.160 (160353459)|CODE_UNIT_FINISHED|ProductionTriggerTest.setup
+06:58:06.161 (161610178)|EXECUTION_FINISHED
+06:58:06.170 (170564638)|EXECUTION_STARTED
+06:58:06.170 (170598850)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000001RfmX|ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions
+06:58:06.171 (171841314)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.175 (175718517)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.176 (176114084)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.178 (178313479)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.178 (178768046)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.180 (180578308)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.180 (180834642)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.182 (182833264)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.185 (185996172)|DML_BEGIN|[15]|Op:Insert|Type:Production__c|Rows:3
+06:58:06.234 (234123594)|CODE_UNIT_STARTED|[EXTERNAL]|01q580000008zAl|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dEZz, a0058000001dEa0, a0058000001dEa1]
+06:58:06.236 (236712492)|SOQL_EXECUTE_BEGIN|[10]|Aggregations:0|SELECT Production_Quantity__c FROM Product2 WHERE Id = :tmpVar1
+06:58:06.239 (239539456)|SOQL_EXECUTE_END|[10]|Rows:1
+06:58:06.240 (240515716)|SOQL_EXECUTE_BEGIN|[13]|Aggregations:0|SELECT SUM(Quantity__c) sum FROM Production__c WHERE (Product__c = :tmpVar1 AND Status__c = 'In production')
+06:58:06.249 (249966218)|SOQL_EXECUTE_END|[13]|Rows:1
+06:58:06.250 (250689244)|DML_BEGIN|[18]|Op:Update|Type:Product2|Rows:1
+06:58:06.264 (264693005)|DML_END|[18]
+06:58:06.264 (264825351)|CUMULATIVE_LIMIT_USAGE
+06:58:06.264 (264825351)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 4 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.264 (264825351)|TESTING_LIMITS
+06:58:06.264 (264825351)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.264 (264825351)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.265 (265212363)|CODE_UNIT_FINISHED|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dEZz, a0058000001dEa0, a0058000001dEa1]
+06:58:06.266 (266542728)|DML_END|[15]
+06:58:06.267 (267023564)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.269 (269659833)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.269 (269954805)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.272 (272166652)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.276 (276330497)|CUMULATIVE_LIMIT_USAGE
+06:58:06.276 (276330497)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 4 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.276 (276330497)|TESTING_LIMITS
+06:58:06.276 (276330497)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 6 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.276 (276330497)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.276 (276409953)|CODE_UNIT_FINISHED|ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions
+06:58:06.277 (277483345)|EXECUTION_FINISHED
+06:58:06.305 (305189128)|EXECUTION_STARTED
+06:58:06.305 (305214938)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000001RfmX|ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenUpdatingProductions
+06:58:06.306 (306163487)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.308 (308856898)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.309 (309182018)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.311 (311413415)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.311 (311753327)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.313 (313730997)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.313 (313993156)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.315 (315979757)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.316 (316784995)|DML_BEGIN|[16]|Op:Insert|Type:Production__c|Rows:3
+06:58:06.339 (339016164)|CODE_UNIT_STARTED|[EXTERNAL]|01q580000008zAl|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dEa2, a0058000001dEa3, a0058000001dEa4]
+06:58:06.340 (340140168)|SOQL_EXECUTE_BEGIN|[10]|Aggregations:0|SELECT Production_Quantity__c FROM Product2 WHERE Id = :tmpVar1
+06:58:06.342 (342540498)|SOQL_EXECUTE_END|[10]|Rows:1
+06:58:06.343 (343082607)|SOQL_EXECUTE_BEGIN|[13]|Aggregations:0|SELECT SUM(Quantity__c) sum FROM Production__c WHERE (Product__c = :tmpVar1 AND Status__c = 'In production')
+06:58:06.347 (347064699)|SOQL_EXECUTE_END|[13]|Rows:1
+06:58:06.347 (347453774)|DML_BEGIN|[18]|Op:Update|Type:Product2|Rows:1
+06:58:06.357 (357239325)|DML_END|[18]
+06:58:06.357 (357340702)|CUMULATIVE_LIMIT_USAGE
+06:58:06.357 (357340702)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 6 out of 100
+  Number of query rows: 8 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 5 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.357 (357340702)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.357 (357476889)|CODE_UNIT_FINISHED|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dEa2, a0058000001dEa3, a0058000001dEa4]
+06:58:06.358 (358137830)|DML_END|[16]
+06:58:06.360 (360204932)|DML_BEGIN|[31]|Op:Update|Type:Production__c|Rows:3
+06:58:06.392 (392744089)|DML_END|[31]
+06:58:06.393 (393290533)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.396 (396051370)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.396 (396344720)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.398 (398409358)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.401 (401600234)|CUMULATIVE_LIMIT_USAGE
+06:58:06.401 (401600234)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 6 out of 100
+  Number of query rows: 8 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 4 out of 150
+  Number of DML rows: 8 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.401 (401600234)|TESTING_LIMITS
+06:58:06.401 (401600234)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.401 (401600234)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.401 (401692373)|CODE_UNIT_FINISHED|ProductionTriggerTest.verifyProcutProuctionQuantityisChanged_whenUpdatingProductions
+06:58:06.402 (402820522)|EXECUTION_FINISHED
+06:58:06.422 (422407675)|EXECUTION_STARTED
+06:58:06.422 (422430135)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000001RfmX|ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions
+06:58:06.423 (423033859)|USER_DEBUG|[41]|DEBUG|start
+06:58:06.425 (425355695)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+06:58:06.427 (427947162)|SOQL_EXECUTE_END|[39]|Rows:1
+06:58:06.428 (428272279)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+06:58:06.430 (430378532)|SOQL_EXECUTE_END|[44]|Rows:1
+06:58:06.430 (430914893)|DML_BEGIN|[45]|Op:Insert|Type:Production__c|Rows:1
+06:58:06.446 (446104329)|CODE_UNIT_STARTED|[EXTERNAL]|01q580000008zAl|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dEa5]
+06:58:06.446 (446986089)|SOQL_EXECUTE_BEGIN|[10]|Aggregations:0|SELECT Production_Quantity__c FROM Product2 WHERE Id = :tmpVar1
+06:58:06.449 (449133884)|SOQL_EXECUTE_END|[10]|Rows:1
+06:58:06.449 (449659787)|SOQL_EXECUTE_BEGIN|[13]|Aggregations:0|SELECT SUM(Quantity__c) sum FROM Production__c WHERE (Product__c = :tmpVar1 AND Status__c = 'In production')
+06:58:06.453 (453529983)|SOQL_EXECUTE_END|[13]|Rows:1
+06:58:06.453 (453910289)|DML_BEGIN|[18]|Op:Update|Type:Product2|Rows:1
+06:58:06.462 (462871118)|DML_END|[18]
+06:58:06.462 (462970139)|CUMULATIVE_LIMIT_USAGE
+06:58:06.462 (462970139)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.462 (462970139)|TESTING_LIMITS
+06:58:06.462 (462970139)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.462 (462970139)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.463 (463116662)|CODE_UNIT_FINISHED|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dEa5]
+06:58:06.463 (463698556)|DML_END|[45]
+06:58:06.464 (464010985)|SOQL_EXECUTE_BEGIN|[47]|Aggregations:0|SELECT Name FROM Production__c LIMIT 1
+06:58:06.475 (475955696)|SOQL_EXECUTE_END|[47]|Rows:1
+06:58:06.476 (476433278)|EXCEPTION_THROWN|[48]|System.AssertException: Assertion Failed: Same value: 0
+06:58:06.476 (476952796)|FATAL_ERROR|System.AssertException: Assertion Failed: Same value: 0
+
+Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 48, column 1
+06:58:06.477 (477014463)|FATAL_ERROR|System.AssertException: Assertion Failed: Same value: 0
+
+Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 48, column 1
+06:58:06.477 (477040993)|CUMULATIVE_LIMIT_USAGE
+06:58:06.477 (477040993)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.477 (477040993)|TESTING_LIMITS
+06:58:06.477 (477040993)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 5 out of 100
+  Number of query rows: 5 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+06:58:06.477 (477040993)|CUMULATIVE_LIMIT_USAGE_END
+
+06:58:06.477 (477114879)|CODE_UNIT_FINISHED|ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions
+06:58:06.478 (478187681)|EXECUTION_FINISHED

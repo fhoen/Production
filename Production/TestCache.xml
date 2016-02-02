@@ -20,6 +20,18 @@
                 <TestMethod>
                     <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
                 </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <Id>01p58000001h0wcAAA</Id>
+            <Name>ProductionTriggerHandlerTest</Name>
+            <TestMethods>
+                <TestMethod>
+                    <Name>generateBarcode_lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
@@ -41,6 +53,6 @@
             </TestMethods>
         </TestClass>
     </TestClasses>
-    <CacheDate>2016-01-31T20:29:52.2871493Z</CacheDate>
+    <CacheDate>2016-02-02T05:21:04.0968523Z</CacheDate>
     <IsLocal>false</IsLocal>
 </TestClassesCache>

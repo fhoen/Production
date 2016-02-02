@@ -1,0 +1,11 @@
+﻿@isTest
+private class ProductionTriggerHandlerTest {
+
+	private static testmethod void generateBarcode_lengthIs8WhenOriginalNameIsLengthOf7(){
+		List<Production__c> productions=TestDataFactory.getProductions(1,false);
+		Production__c originalProduction=productions[0];
+		List<Production__c> newProductions=ProductionTriggerHandler.generateBarcode(productions);
+		Production__c newProduction =newProductions[0];
+		System.assertEquals(originalProduction.Name.length()+1,newProduction.Name.length());
+	}
+ }

@@ -39,17 +39,14 @@ private class ProductionTriggerTest {
 
 	private static testmethod void verifyProductionNameChangesWhenInsertingProductions(){
 		
-		List<Production__c> productions=TestDataFactory.getProductions(1,false);
+		List<Production__c> productions=TestDataFactory.getProductions(1,true);
 		Production__c originalProduction=productions[0];
 		Test.startTest();
-		
-		
 		insert productions;
+		Production__c insertedProduction=productions[0];
 		Test.stopTest();
-		Production__c insertedProduction=[SELECT Name FROM Production__c LIMIT 1];
-		System.assertNotEquals(originalProduction.Name,insertedProduction.Name);
 		
-
+		System.assertNotEquals(originalProduction.Name,insertedProduction.Name);
 
 		
 	}
