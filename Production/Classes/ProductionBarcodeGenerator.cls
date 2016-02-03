@@ -1,6 +1,6 @@
-public  with sharing class ProductionTriggerHandler {
-	
-	public static List<Production__c>  generateBarcode(List<Production__c> productions){
+public with sharing class ProductionBarcodeGenerator {
+
+public static List<Production__c>  generateBarcodes(List<Production__c> productions){
 
 		for (Production__c p:productions)
 		{

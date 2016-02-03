@@ -48,6 +48,20 @@
       <LastModifiedDateUtcTicks>130987457210000000</LastModifiedDateUtcTicks>
       <Hash>tuUlLBTCwcXvQQtjMOhgzg==</Hash>
     </Compile>
+    <Compile Include="Classes\ProductionBarcodeGenerator.cls">
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>Classes\ProductionBarcodeGenerator.cls</PhysicalRelativePath>
+      <Id>01p58000001hiZLAAY</Id>
+      <LastModifiedDateUtcTicks>130989508720000000</LastModifiedDateUtcTicks>
+      <Hash>o/QGINCSjKnVF/jo7wVO/Q==</Hash>
+    </Compile>
+    <Compile Include="Classes\ProductionBarcodeGeneratorTest.cls">
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>Classes\ProductionBarcodeGeneratorTest.cls</PhysicalRelativePath>
+      <Id>01p58000001hiZQAAY</Id>
+      <LastModifiedDateUtcTicks>130989508720000000</LastModifiedDateUtcTicks>
+      <Hash>mPW1a+ZcZG3huv/wWxFaWA==</Hash>
+    </Compile>
     <Compile Include="Classes\ProductionQuantityCalculation.cls">
       <PhysicalRelativePath>Classes\ProductionQuantityCalculation.cls</PhysicalRelativePath>
       <SubType>Class</SubType>
@@ -61,20 +75,6 @@
       <Id>01p58000001Ri2gAAC</Id>
       <LastModifiedDateUtcTicks>130986528600000000</LastModifiedDateUtcTicks>
       <Hash>FZt8uj+41+A+WK/eSCffnA==</Hash>
-    </Compile>
-    <Compile Include="Classes\ProductionTriggerHandler.cls">
-      <SubType>Class</SubType>
-      <PhysicalRelativePath>ProductionTriggerHandler.cls</PhysicalRelativePath>
-      <Id>01p58000001h0wXAAQ</Id>
-      <LastModifiedDateUtcTicks>130989180120000000</LastModifiedDateUtcTicks>
-      <Hash>+kh8B/FjJ+W95pz4nM3ipw==</Hash>
-    </Compile>
-    <Compile Include="Classes\ProductionTriggerHandlerTest.cls">
-      <SubType>Class</SubType>
-      <PhysicalRelativePath>Classes\ProductionTriggerHandlerTest.cls</PhysicalRelativePath>
-      <Id>01p58000001h0wcAAA</Id>
-      <LastModifiedDateUtcTicks>130989174780000000</LastModifiedDateUtcTicks>
-      <Hash>ZLLKLbu1Kb9MUPvB+zq57g==</Hash>
     </Compile>
     <Compile Include="Classes\ProductionTriggerTest.cls">
       <PhysicalRelativePath>Classes\ProductionTriggerTest.cls</PhysicalRelativePath>
@@ -94,8 +94,8 @@
       <PhysicalRelativePath>Triggers\ProductionTrigger.trigger</PhysicalRelativePath>
       <SubType>Trigger</SubType>
       <Id>01q580000008zAlAAI</Id>
-      <LastModifiedDateUtcTicks>130989180650000000</LastModifiedDateUtcTicks>
-      <Hash>zHxYXxZrDnt4fSDBnM4IJw==</Hash>
+      <LastModifiedDateUtcTicks>130989508720000000</LastModifiedDateUtcTicks>
+      <Hash>Ctp6r73lLYsuD/fjeB+9Gw==</Hash>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +113,20 @@
       <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
       <DependentUpon>Classes\CheckSumCalculationTest.cls</DependentUpon>
     </None>
+    <None Include="Classes\ProductionBarcodeGenerator.cls-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Classes\ProductionBarcodeGenerator.cls-meta.xml</PhysicalRelativePath>
+      <LastModifiedDateUtcTicks>130989508720000000</LastModifiedDateUtcTicks>
+      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
+      <DependentUpon>Classes\ProductionBarcodeGenerator.cls</DependentUpon>
+    </None>
+    <None Include="Classes\ProductionBarcodeGeneratorTest.cls-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Classes\ProductionBarcodeGeneratorTest.cls-meta.xml</PhysicalRelativePath>
+      <LastModifiedDateUtcTicks>130989508720000000</LastModifiedDateUtcTicks>
+      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
+      <DependentUpon>Classes\ProductionBarcodeGeneratorTest.cls</DependentUpon>
+    </None>
     <None Include="Classes\ProductionQuantityCalculation.cls-meta.xml">
       <PhysicalRelativePath>Classes\ProductionQuantityCalculation.cls-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
@@ -126,20 +140,6 @@
       <DependentUpon>Classes\ProductionQuantityCalculationTest.cls</DependentUpon>
       <LastModifiedDateUtcTicks>130986528600000000</LastModifiedDateUtcTicks>
       <Hash>uwZXo0MLIqlu2+U6OesXVA==</Hash>
-    </None>
-    <None Include="Classes\ProductionTriggerHandler.cls-meta.xml">
-      <SubType>Metadata</SubType>
-      <PhysicalRelativePath>ProductionTriggerHandler.cls-meta.xml</PhysicalRelativePath>
-      <LastModifiedDateUtcTicks>130989180120000000</LastModifiedDateUtcTicks>
-      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
-      <DependentUpon>Classes\ProductionTriggerHandler.cls</DependentUpon>
-    </None>
-    <None Include="Classes\ProductionTriggerHandlerTest.cls-meta.xml">
-      <SubType>Metadata</SubType>
-      <PhysicalRelativePath>Classes\ProductionTriggerHandlerTest.cls-meta.xml</PhysicalRelativePath>
-      <LastModifiedDateUtcTicks>130989174780000000</LastModifiedDateUtcTicks>
-      <Hash>qPYxbthsTjFyWy7IXTGaXw==</Hash>
-      <DependentUpon>Classes\ProductionTriggerHandlerTest.cls</DependentUpon>
     </None>
     <None Include="Classes\ProductionTriggerTest.cls-meta.xml">
       <PhysicalRelativePath>Classes\ProductionTriggerTest.cls-meta.xml</PhysicalRelativePath>
@@ -159,7 +159,7 @@
       <PhysicalRelativePath>Triggers\ProductionTrigger.trigger-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
       <DependentUpon>Triggers\ProductionTrigger.trigger</DependentUpon>
-      <LastModifiedDateUtcTicks>130989180650000000</LastModifiedDateUtcTicks>
+      <LastModifiedDateUtcTicks>130989508720000000</LastModifiedDateUtcTicks>
       <Hash>03H3jwCKMJI2OlSRx8x+lw==</Hash>
     </None>
   </ItemGroup>
