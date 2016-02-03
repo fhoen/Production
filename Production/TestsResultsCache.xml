@@ -2,6 +2,58 @@
 <TestsResultsCache>
     <TestClasses>
         <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TNKzAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TNKuAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
             <TestClassId>01p58000001h0wNAAQ</TestClassId>
             <TestQueueId>70958000000TNKpAAO</TestQueueId>
             <TestMethods>

@@ -8,9 +8,5 @@ public  with sharing class ProductionTriggerHandler {
 		}
 
 		return productions;
-	
-		
-		
-		
 	}
  }

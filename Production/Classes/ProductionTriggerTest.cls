@@ -43,15 +43,22 @@ private class ProductionTriggerTest {
 		Production__c originalProduction=productions[0];
 		Test.startTest();
 		
-		
 		insert productions;
 		Test.stopTest();
 		Production__c insertedProduction=[SELECT Name FROM Production__c LIMIT 1];
 		System.assertNotEquals(originalProduction.Name,insertedProduction.Name);
-		
+	}
 
-
+	private static testmethod void verifyProductionNameIsUnchangesWhenUpdatingProductions(){
 		
+		List<Production__c> productions=TestDataFactory.getProductions(1,true);
+		Production__c originalProduction=productions[0];
+		Test.startTest();
+		
+		update productions;
+		Test.stopTest();
+		Production__c insertedProduction=[SELECT Name FROM Production__c LIMIT 1];
+		System.assertEquals(originalProduction.Name,insertedProduction.Name);
 	}
 
 }
