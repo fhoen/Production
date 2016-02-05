@@ -3,6 +3,480 @@
     <TestClasses>
         <TestClass>
             <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TNfnAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNfoAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te5EAE</ApexLogId>
+                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te5EAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Te5EAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TNfpAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TeAEAU</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TNfqAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNfiAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TdvEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNfdAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TdbEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.ListException: List index out of bounds: 0</Message>
+                    <StackTrace>Class.ProductionBarcodeGenerator.generateBarcodes: line 10, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 19, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNfYAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TdCEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.ListException: List index out of bounds: 0</Message>
+                    <StackTrace>Class.ProductionBarcodeGenerator.generateBarcodes: line 10, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 19, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNfTAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000Td7EAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNfOAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TcnEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.QueryException: List has no rows for assignment to SObject</Message>
+                    <StackTrace>Class.TestDataFactory.getManufacturer: line 49, column 1
+Class.TestDataFactory.getProducts: line 24, column 1
+Class.TestDataFactory.getProduct: line 42, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNeVAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TVDEA2</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 33, column 1
+Class.TestDataFactory.getProduct: line 42, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNeQAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TUjEAM</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNeLAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TUUEA2</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNeGAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TU6EAM</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNeBAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TU5EAM</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNe6AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000TTvEAM</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
+Class.TestDataFactory.getProduct: line 41, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNdhAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000SskEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
+Class.TestDataFactory.getProduct: line 41, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNdcAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000SplEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
+Class.TestDataFactory.getProduct: line 41, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNdOAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000Sm8EAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNdJAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000SljEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNdEAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNd9AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNd4AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 0</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNczAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 0</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNcuAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 0</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNXXAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000NVFEA2</ApexLogId>
+                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000NVFEA2</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000NVFEA2</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNMlAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000FhTEAU</ApexLogId>
+                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_FIELD, More than 1 field provided in an external foreign key reference in entity: Account: []</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
+Class.TestDataFactory.getProduct: line 42, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 25, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000FhTEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_FIELD, More than 1 field provided in an external foreign key reference in entity: Account: []</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
+Class.TestDataFactory.getProduct: line 42, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000FhTEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_FIELD, More than 1 field provided in an external foreign key reference in entity: Account: []</Message>
+                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
+Class.TestDataFactory.getProduct: line 42, column 1
+Class.TestDataFactory.getProductions: line 6, column 1
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsLengthOf7: line 5, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNM7AAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000FdlEAE</ApexLogId>
+                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000FdlEAE</ApexLogId>
+                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TNLxAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000FcOEAU</ApexLogId>
+                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.generateBarcodes_lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000FcOEAU</ApexLogId>
+                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
             <TestQueueId>70958000000TNLiAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
@@ -83,556 +557,6 @@
                     <ApexLogId>07L580000000FZPEA2</ApexLogId>
                     <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
                     <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKzAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EnzEAE</ApexLogId>
-                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKuAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000Em3EAE</ApexLogId>
-                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001h0wNAAQ</TestClassId>
-            <TestQueueId>70958000000TNKpAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeYEAU</ApexLogId>
-                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeYEAU</ApexLogId>
-                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeYEAU</ApexLogId>
-                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeYEAU</ApexLogId>
-                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001Ri2gAAC</TestClassId>
-            <TestQueueId>70958000000TNKqAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeTEAU</ApexLogId>
-                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKsAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeiEAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeiEAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EeiEAE</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKlAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EdLEAU</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EdLEAU</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EdLEAU</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001h0wNAAQ</TestClassId>
-            <TestQueueId>70958000000TNKVAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZsEAM</ApexLogId>
-                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZsEAM</ApexLogId>
-                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZsEAM</ApexLogId>
-                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZsEAM</ApexLogId>
-                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001Ri2gAAC</TestClassId>
-            <TestQueueId>70958000000TNKWAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZxEAM</ApexLogId>
-                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKYAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000Ea7EAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000Ea7EAE</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000Ea7EAE</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKQAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZYEA2</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKLAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000EZ4EAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, ProductionTrigger: execution of BeforeInsert
-
-caused by: System.SObjectException: DML statement cannot operate on trigger.new or trigger.old
-
-Class.ProductionTriggerHandler.generateBarcode: line 11, column 1
-Trigger.ProductionTrigger: line 5, column 1: []</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 47, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKGAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ETyEAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 50, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNKBAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ETtEAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ETtEAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ETtEAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 50, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNK6AAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESREA2</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 50, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNK1AAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESMEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESMEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESMEA2</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 50, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNJwAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESHEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESHEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ESHEA2</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 50, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNJrAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ES2EAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNJmAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ERxEAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ERxEAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ERxEAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNJNAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000DzUEAU</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000DzUEAU</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000DzUEAU</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 48, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNJIAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000DzAEAU</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000DzAEAU</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000DzAEAU</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 48, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNBPAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000AOSEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AOSEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AOSEA2</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 48, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNBKAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000AODEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AODEA2</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AODEA2</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNBFAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000AO8EAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AO8EAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AO8EAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNBAAA4</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000AO3EAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AO3EAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000AO3EAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNB5AAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000ANyEAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ANyEAM</ApexLogId>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000ANyEAM</ApexLogId>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNB0AAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNAvAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
-                    <Message>System.AssertException: Assertion Failed: Same value: 0</Message>
-                    <StackTrace>Class.ProductionTriggerTest.verifyProductionNameChangesWhenInsertingProductions: line 49, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>

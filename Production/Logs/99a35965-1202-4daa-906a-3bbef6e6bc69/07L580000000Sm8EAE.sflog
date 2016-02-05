@@ -1,0 +1,90 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,DEBUG;CALLOUT,DEBUG;DB,DEBUG;SYSTEM,DEBUG;VALIDATION,DEBUG;VISUALFORCE,DEBUG;WORKFLOW,DEBUG
+16:50:08.106 (106900111)|EXECUTION_STARTED
+16:50:08.106 (106963814)|CODE_UNIT_STARTED|[EXTERNAL]|01p58000001hiZQ|ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty
+16:50:08.108 (108724625)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id FROM Product2 LIMIT 1
+16:50:08.110 (110003617)|SOQL_EXECUTE_END|[39]|Rows:0
+16:50:08.110 (110694015)|DML_BEGIN|[51]|Op:Insert|Type:Account|Rows:1
+16:50:08.187 (187602076)|DML_END|[51]
+16:50:08.187 (187830725)|DML_BEGIN|[32]|Op:Insert|Type:Product2|Rows:1
+16:50:08.206 (206113831)|DML_END|[32]
+16:50:08.206 (206458593)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Name, Production_Quantity__c FROM Product2 LIMIT 1
+16:50:08.208 (208841655)|SOQL_EXECUTE_END|[44]|Rows:1
+16:50:08.209 (209398727)|DML_BEGIN|[16]|Op:Insert|Type:Production__c|Rows:1
+16:50:08.272 (272007052)|CODE_UNIT_STARTED|[EXTERNAL]|01q580000008zAl|ProductionTrigger on Production trigger event BeforeInsert for [new]
+16:50:08.275 (275367608)|SYSTEM_MODE_ENTER|false
+16:50:08.275 (275380417)|SYSTEM_MODE_EXIT|false
+16:50:08.275 (275478961)|SYSTEM_MODE_ENTER|false
+16:50:08.277 (277146745)|SYSTEM_MODE_EXIT|false
+16:50:08.277 (277185479)|CUMULATIVE_LIMIT_USAGE
+16:50:08.277 (277185479)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 3 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:50:08.277 (277185479)|CUMULATIVE_LIMIT_USAGE_END
+
+16:50:08.277 (277357672)|CODE_UNIT_FINISHED|ProductionTrigger on Production trigger event BeforeInsert for [new]
+16:50:08.308 (308765911)|CODE_UNIT_STARTED|[EXTERNAL]|01q580000008zAl|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dLKg]
+16:50:08.310 (310450467)|SOQL_EXECUTE_BEGIN|[10]|Aggregations:0|SELECT Production_Quantity__c FROM Product2 WHERE Id = :tmpVar1
+16:50:08.312 (312678456)|SOQL_EXECUTE_END|[10]|Rows:1
+16:50:08.313 (313267703)|SOQL_EXECUTE_BEGIN|[13]|Aggregations:0|SELECT SUM(Quantity__c) sum FROM Production__c WHERE (Product__c = :tmpVar1 AND Status__c = 'In production')
+16:50:08.321 (321220734)|SOQL_EXECUTE_END|[13]|Rows:1
+16:50:08.321 (321686016)|DML_BEGIN|[18]|Op:Update|Type:Product2|Rows:1
+16:50:08.335 (335496784)|DML_END|[18]
+16:50:08.335 (335580673)|CUMULATIVE_LIMIT_USAGE
+16:50:08.335 (335580673)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 4 out of 150
+  Number of DML rows: 4 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:50:08.335 (335580673)|CUMULATIVE_LIMIT_USAGE_END
+
+16:50:08.335 (335720623)|CODE_UNIT_FINISHED|ProductionTrigger on Production trigger event AfterInsert for [a0058000001dLKg]
+16:50:08.337 (337226464)|DML_END|[16]
+16:50:08.338 (338088555)|SYSTEM_MODE_ENTER|false
+16:50:08.338 (338233602)|USER_DEBUG|[9]|DEBUG|null
+16:50:08.338 (338367376)|SYSTEM_MODE_EXIT|false
+16:50:08.338 (338483194)|EXCEPTION_THROWN|[21]|System.AssertException: Assertion Failed: Expected: 8, Actual: 1
+16:50:08.338 (338609312)|FATAL_ERROR|System.AssertException: Assertion Failed: Expected: 8, Actual: 1
+
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1
+16:50:08.338 (338621634)|FATAL_ERROR|System.AssertException: Assertion Failed: Expected: 8, Actual: 1
+
+Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1
+16:50:08.338 (338634998)|CUMULATIVE_LIMIT_USAGE
+16:50:08.338 (338634998)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 4 out of 150
+  Number of DML rows: 4 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:50:08.338 (338634998)|CUMULATIVE_LIMIT_USAGE_END
+
+16:50:08.338 (338673349)|CODE_UNIT_FINISHED|ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty
+16:50:08.341 (341124934)|EXECUTION_FINISHED

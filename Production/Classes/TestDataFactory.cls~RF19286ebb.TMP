@@ -21,17 +21,17 @@ public class TestDataFactory {
 	public static List<Product2> getProducts(Integer numberOfProdducts, Boolean updateDatabase){
 		
 		List<Product2> result=new List<Product2>();
-		Account manufacturer=getManufacturer(true);
-		System.debug(manufacturer.Id);
+
 		for (Integer i = 0; i < numberOfProdducts; i++)
 		{
-			result.add(new Product2(Name=String.valueOf(i), Production_Quantity__c=0, Manufacturer__r=manufacturer,Manufacturer__c=manufacturer.Id));
+			result.add(new Product2(Name=String.valueOf(i), Production_Quantity__c=0, Manufacturer__r=getManufacturer()));
 		}
 		
 		if (updateDatabase==true)
 		{
 			insert result;
 		}
+		return result;
 		return result;
 	}
 
@@ -45,8 +45,7 @@ public class TestDataFactory {
 	}
 
 	public static Account getManufacturer(Boolean updateDatabase){
-		RecordType rt = [select id,Name from RecordType where SobjectType='Account' and Name='Manufacturer' Limit 1];
-		Account manufacturer=new  Account(Name='Manufacturer 1', Production_Number_Prefix__c=9,recordtypeid=rt.Id);
+		Account manufacturer=new  Account(Name='Manufacturer 1', Production_Number_Prefix__c=9);
 		
 		if(updateDatabase==true){
 			insert manufacturer;
