@@ -2,26 +2,94 @@
 <TestsResultsCache>
     <TestClasses>
         <TestClass>
-            <TestClassId>01p58000001h0wNAAQ</TestClassId>
-            <TestQueueId>70958000000TNfnAAG</TestQueueId>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TOSAAA4</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TOSBAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TOSCAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>getNextNumber_is000WhenManufacturerIsManufacturer_1_AndNoProductionNumbersExist</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TOSDAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TOSEAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
                     <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
                     <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
                     <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te0EAE</ApexLogId>
                     <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
@@ -29,473 +97,255 @@
         </TestClass>
         <TestClass>
             <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNfoAAG</TestQueueId>
+            <TestQueueId>70958000000TOS6AAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te5EAE</ApexLogId>
-                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te5EAE</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
                     <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000Te5EAE</ApexLogId>
                     <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
             <TestClassId>01p58000001Ri2gAAC</TestClassId>
-            <TestQueueId>70958000000TNfpAAG</TestQueueId>
+            <TestQueueId>70958000000TOS7AAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000TeAEAU</ApexLogId>
                     <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNfqAAG</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TOS8AAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
+                    <Name>getNextNumber_is000WhenManufacturerIsManufacturer_1_AndNoProductionNumbersExist</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TOS9AAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
                     <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
                     <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
                     <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000TeFEAU</ApexLogId>
                     <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNfiAAG</TestQueueId>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TOS5AAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000TdvEAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNfdAAG</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TOS0AAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000TdbEAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.ListException: List index out of bounds: 0</Message>
-                    <StackTrace>Class.ProductionBarcodeGenerator.generateBarcodes: line 10, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 19, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
+                    <Name>getNextNumber_is000WhenManufacturerIsManufacturer_1_AndNoProductionNumbersExist</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNfYAAW</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORvAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000TdCEAU</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.ListException: List index out of bounds: 0</Message>
-                    <StackTrace>Class.ProductionBarcodeGenerator.generateBarcodes: line 10, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 19, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNfTAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000Td7EAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNfOAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TcnEAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Name>getNextNumber_is000WhenManufacturerIsManufacturer_1_AndNoProductionNumbersExist</Name>
                     <Message>System.QueryException: List has no rows for assignment to SObject</Message>
-                    <StackTrace>Class.TestDataFactory.getManufacturer: line 49, column 1
-Class.TestDataFactory.getProducts: line 24, column 1
-Class.TestDataFactory.getProduct: line 42, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNeVAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TVDEA2</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 33, column 1
-Class.TestDataFactory.getProduct: line 42, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNeQAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TUjEAM</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNeLAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TUUEA2</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNeGAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TU6EAM</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNeBAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TU5EAM</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNe6AAG</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000TTvEAM</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
-Class.TestDataFactory.getProduct: line 41, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNdhAAG</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000SskEAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
-Class.TestDataFactory.getProduct: line 41, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNdcAAG</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000SplEAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: FIELD_FILTER_VALIDATION_EXCEPTION, Value does not exist or does not match filter criteria.: [Manufacturer__c]</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
-Class.TestDataFactory.getProduct: line 41, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNdOAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000Sm8EAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNdJAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000SljEAE</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNdEAAW</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNd9AAG</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNd4AAG</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 0</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
+                    <StackTrace>Class.ProductionSerialNumber.getNextNumber: line 6, column 1
+Class.ProductionSeralNumberTest.getNextNumber_is000WhenManufacturerIsManufacturer_1_AndNoProductionNumbersExist: line 13, column 1</StackTrace>
                     <TestResultStatus>Fail</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNczAAG</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 0</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNcuAAG</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORqAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 0</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNXXAA4</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORlAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000NVFEA2</ApexLogId>
-                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 9, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 31, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000NVFEA2</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000NVFEA2</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-            </TestMethods>
-        </TestClass>
-        <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNMlAAO</TestQueueId>
-            <TestMethods>
-                <TestMethod>
-                    <ApexLogId>07L580000000FhTEAU</ApexLogId>
-                    <Name>firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_FIELD, More than 1 field provided in an external foreign key reference in entity: Account: []</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
-Class.TestDataFactory.getProduct: line 42, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.firstNumerIs9W_henProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty: line 25, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000FhTEAU</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_FIELD, More than 1 field provided in an external foreign key reference in entity: Account: []</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
-Class.TestDataFactory.getProduct: line 42, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 15, column 1</StackTrace>
-                    <TestResultStatus>Fail</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000FhTEAU</ApexLogId>
-                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
-                    <Message>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_FIELD, More than 1 field provided in an external foreign key reference in entity: Account: []</Message>
-                    <StackTrace>Class.TestDataFactory.getProducts: line 32, column 1
-Class.TestDataFactory.getProduct: line 42, column 1
-Class.TestDataFactory.getProductions: line 6, column 1
-Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsLengthOf7: line 5, column 1</StackTrace>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 107, Actual: 010</Message>
+                    <StackTrace>Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 8, column 1</StackTrace>
                     <TestResultStatus>Fail</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNM7AAO</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORgAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FdlEAE</ApexLogId>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
-                </TestMethod>
-                <TestMethod>
-                    <ApexLogId>07L580000000FdlEAE</ApexLogId>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 107, Actual: 106</Message>
+                    <StackTrace>Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 8, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNLxAAO</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORbAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FcOEAU</ApexLogId>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsEmpty</Name>
-                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 1</Message>
-                    <StackTrace>Class.ProductionBarcodeGeneratorTest.generateBarcodes_lengthIs8WhenOriginalNameIsEmpty: line 21, column 1</StackTrace>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 107, Actual: 10</Message>
+                    <StackTrace>Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 8, column 1</StackTrace>
                     <TestResultStatus>Fail</TestResultStatus>
                 </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORWAA4</TestQueueId>
+            <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FcOEAU</ApexLogId>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
-                    <TestResultStatus>Pass</TestResultStatus>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 107, Actual: 001</Message>
+                    <StackTrace>Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 8, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORRAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 107, Actual: 00</Message>
+                    <StackTrace>Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 8, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TORMAA4</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.QueryException: line 1:48 no viable alternative at character '%'</Message>
+                    <StackTrace>Class.ProductionSerialNumber.getNextNumber: line 5, column 1
+Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 7, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TONoAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.QueryException: unexpected token: 'LIKE9'</Message>
+                    <StackTrace>Class.ProductionSerialNumber.getNextNumber: line 5, column 1
+Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 7, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TONjAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.QueryException: unexpected token: [</Message>
+                    <StackTrace>Class.ProductionSerialNumber.getNextNumber: line 5, column 1
+Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 7, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
             <TestClassId>01p58000001h0wNAAQ</TestClassId>
-            <TestQueueId>70958000000TNLiAAO</TestQueueId>
+            <TestQueueId>70958000000TONeAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZeEAM</ApexLogId>
                     <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZeEAM</ApexLogId>
                     <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZeEAM</ApexLogId>
                     <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZeEAM</ApexLogId>
                     <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
@@ -503,47 +353,279 @@ Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsLengthOf7: line 
         </TestClass>
         <TestClass>
             <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNLjAAO</TestQueueId>
+            <TestQueueId>70958000000TONfAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZjEAM</ApexLogId>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
             <TestClassId>01p58000001Ri2gAAC</TestClassId>
-            <TestQueueId>70958000000TNLkAAO</TestQueueId>
+            <TestQueueId>70958000000TONgAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZQEA2</ApexLogId>
                     <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>
         </TestClass>
         <TestClass>
-            <TestClassId>01p58000001RfmXAAS</TestClassId>
-            <TestQueueId>70958000000TNLlAAO</TestQueueId>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TONhAAO</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZoEAM</ApexLogId>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 107, Actual: 0</Message>
+                    <StackTrace>Class.ProductionSeralNumberTest.getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106: line 8, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TONiAAO</TestQueueId>
+            <TestMethods>
+                <TestMethod>
                     <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZoEAM</ApexLogId>
                     <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZoEAM</ApexLogId>
                     <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZoEAM</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TO70AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBuEAI</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO71AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBzEAI</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBzEAI</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBzEAI</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBzEAI</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBzEAI</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TO72AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aC4EAI</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TO73AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aC9EAI</ApexLogId>
+                    <Name>getNextNumber_is</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TO74AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aCEEAY</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aCEEAY</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aCEEAY</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aCEEAY</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TO6vAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBVEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBVEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBVEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBVEAY</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6wAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBfEAI</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBfEAI</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBfEAI</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBfEAI</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBfEAI</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TO6xAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBaEAI</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001ikd7AAA</TestClassId>
+            <TestQueueId>70958000000TO6yAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBkEAI</ApexLogId>
+                    <Name>getNextNumber_is</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TO6zAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBpEAI</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBpEAI</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBpEAI</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBpEAI</ApexLogId>
                     <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
@@ -551,11 +633,1034 @@ Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsLengthOf7: line 
         </TestClass>
         <TestClass>
             <TestClassId>01p58000001hiZQAAY</TestClassId>
-            <TestQueueId>70958000000TNLdAAO</TestQueueId>
+            <TestQueueId>70958000000TO6qAAG</TestQueueId>
             <TestMethods>
                 <TestMethod>
-                    <ApexLogId>07L580000000FZPEA2</ApexLogId>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <ApexLogId>07L580000000aBQEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6lAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBLEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 6, Actual: 3</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6gAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aB2EAI</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 2, Actual: 3</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6NAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aBGEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 2, Actual: 3</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6bAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aAcEAI</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 2, Actual: 0</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6WAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aAXEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 2, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6RAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aASEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 2, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6MAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aANEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6HAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aAIEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 47, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO6CAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aADEAY</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 45, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO67AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aA8EAI</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 45, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO62AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000aA3EAI</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 45, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5xAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9yEAA</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 2</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 45, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5sAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9tEAA</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9tEAA</ApexLogId>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
+                    <Message>System.StringException: Ending position out of bounds: 2</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.fourthNumerIsTheCurrentYear_WhenNameIsEmpty: line 45, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9tEAA</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9tEAA</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9tEAA</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5oAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9eEAA</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9eEAA</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9eEAA</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9eEAA</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TO5pAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9jEAA</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TO5qAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9oEAA</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9oEAA</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9oEAA</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9oEAA</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TO5nAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9ZEAQ</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9ZEAQ</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9ZEAQ</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9ZEAQ</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5iAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9UEAQ</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5dAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9PEAQ</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 02, Actual: 12</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 36, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5YAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000a9FEAQ</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 02, Actual: 12</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 40, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5TAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhoEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 0, Actual: 1</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 40, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5OAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhjEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhjEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhjEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhjEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 0, Actual: 9</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 40, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4WAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YheEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 10, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 40, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5JAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhZEAU</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhZEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhZEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YhZEAU</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 10, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 40, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO5EAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000Yh5EAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Yh5EAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Yh5EAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000Yh5EAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 0, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 40, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO59AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgvEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgvEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgvEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgvEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO54AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgqEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgqEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgqEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgqEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4zAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YglEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YglEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YglEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YglEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4uAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YggEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YggEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YggEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YggEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 39, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4pAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgWEAU</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgWEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgWEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgWEAU</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 38, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4kAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgCEAU</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgCEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgCEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YgCEAU</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 38, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4fAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfnEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfnEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfnEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfnEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 38, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4aAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfOEAU</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfOEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfOEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfOEAU</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 38, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4VAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000YfJEAU</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 37, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TO4QAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4RAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 37, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TO4SAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TO4TAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4LAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 37, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4GAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 42432, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 37, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO4BAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TO46AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO47AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TO48AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TO49AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO2AAAW</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WwXEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO20AAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WsaEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 7</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 18, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO1vAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WqjEAE</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WqjEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 8, Actual: 7</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.lengthIs8WhenOriginalNameIsEmpty: line 18, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WqjEAE</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WqjEAE</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001h0wNAAQ</TestClassId>
+            <TestQueueId>70958000000TO1gAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlUEAU</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIs1234567</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlUEAU</ApexLogId>
+                    <Name>calculateWithMod10_resultIs0_whenBarcodeIsText</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlUEAU</ApexLogId>
+                    <Name>calculateWithMod10_resultIs5_whenBarcodeIs1111111</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlUEAU</ApexLogId>
+                    <Name>calculateWithMod10_resultIs6_whenBarcodeIs945671259123</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001hiZQAAY</TestClassId>
+            <TestQueueId>70958000000TO1hAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlZEAU</ApexLogId>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlZEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlZEAU</ApexLogId>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WlZEAU</ApexLogId>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: 2, Actual:</Message>
+                    <StackTrace>Class.ProductionBarcodeGeneratorTest.secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty: line 34, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001Ri2gAAC</TestClassId>
+            <TestQueueId>70958000000TO1iAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WleEAE</ApexLogId>
+                    <Name>valueOfProductionQuantityIsChangedFrom10To12_WhenNewProductionWithQuantityOf2</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p58000001RfmXAAS</TestClassId>
+            <TestQueueId>70958000000TO1jAAG</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L580000000WljEAE</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenInsertingNewProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WljEAE</ApexLogId>
+                    <Name>verifyProcutProuctionQuantityisChanged_whenUpdatingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WljEAE</ApexLogId>
+                    <Name>verifyProductionNameChangesWhenInsertingProductions</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+                <TestMethod>
+                    <ApexLogId>07L580000000WljEAE</ApexLogId>
+                    <Name>verifyProductionNameIsUnchangesWhenUpdatingProductions</Name>
                     <TestResultStatus>Pass</TestResultStatus>
                 </TestMethod>
             </TestMethods>

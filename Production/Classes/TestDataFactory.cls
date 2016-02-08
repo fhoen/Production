@@ -8,7 +8,15 @@ public class TestDataFactory {
 		
 		for (Integer i = 0; i < numnerOfProductions; i++)
 		{
-			result.add(new Production__c(Name=String.valueOf(i), Quantity__c=i, Product__c=product.Id, Product__r=product));
+			if (updateDatabase==true)
+			{
+				result.add(new Production__c(Name='910510' + String.valueOf(i) +'0', Quantity__c=i, Product__c=product.Id, Product__r=product));
+			}
+			else
+			{
+				result.add(new Production__c(Name=String.valueOf(i), Quantity__c=i, Product__c=product.Id, Product__r=product));
+			}
+			
 		}
 		
 		if (updateDatabase==true)
@@ -22,7 +30,7 @@ public class TestDataFactory {
 		
 		List<Product2> result=new List<Product2>();
 		Account manufacturer=getManufacturer(true);
-		System.debug(manufacturer.Id);
+	
 		for (Integer i = 0; i < numberOfProdducts; i++)
 		{
 			result.add(new Product2(Name=String.valueOf(i), Production_Quantity__c=0, Manufacturer__r=manufacturer,Manufacturer__c=manufacturer.Id));

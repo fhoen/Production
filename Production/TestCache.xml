@@ -6,7 +6,19 @@
             <Name>ProductionBarcodeGeneratorTest</Name>
             <TestMethods>
                 <TestMethod>
-                    <Name>generateBarcodes_lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                    <Name>lengthIs8WhenOriginalNameIsLengthOf7</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>lengthIs8WhenOriginalNameIsEmpty</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>firstNumerIs9_WhenProductsManufacturerProductionNumberPrefixIs9_andNameIsEmpty</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>secondAndThirdNumerIsTheCurruntMonth_WhenNameIsEmpty</Name>
+                </TestMethod>
+                <TestMethod>
+                    <Name>fourthNumerIsTheCurrentYear_WhenNameIsEmpty</Name>
                 </TestMethod>
             </TestMethods>
         </TestClass>
@@ -38,6 +50,15 @@
             </TestMethods>
         </TestClass>
         <TestClass>
+            <Id>01p58000001ikd7AAA</Id>
+            <Name>ProductionSeralNumberTest</Name>
+            <TestMethods>
+                <TestMethod>
+                    <Name>getNextNumber_is107WhenManufacturerIsManufacturer_1_AndLastSerialNumberIs106</Name>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
             <Id>01p58000001h0wNAAQ</Id>
             <Name>CheckSumCalculationTest</Name>
             <TestMethods>
@@ -56,6 +77,6 @@
             </TestMethods>
         </TestClass>
     </TestClasses>
-    <CacheDate>2016-02-03T05:28:12.9328802Z</CacheDate>
+    <CacheDate>2016-02-08T05:23:01.7525222Z</CacheDate>
     <IsLocal>false</IsLocal>
 </TestClassesCache>
